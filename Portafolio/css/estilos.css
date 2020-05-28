@@ -231,3 +231,26 @@ footer .redes .facebook:hover{ background:#3b5998; }
 footer .redes .instagram:hover{ background:#c13584; }
 footer .redes .youtube:hover{ background:#ff0000; }
 footer .redes .github:hover{ background:#4078c0; }
+
+/* Media Queries */
+@media screen and (max-width: 800px){
+    header .menu{
+        text-align: center;
+    }
+    .main .trabajos .contenedor-trabajos .trabajo{
+        width: 46%;
+
+    }
+}
+@media screen and (max-width: 500px){
+    header .contenedor-texto .texto .nombre{
+        font-size: 35px;
+    }
+    header .contenedor-texto .texto .profesion{
+        font-size: 18px;
+    }
+    footer .redes .contenedor{
+        flex-wrap: wrap;
+        padding: 20px 0;
+    }
+}
