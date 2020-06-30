@@ -7,7 +7,7 @@ $(document).ready (function(){
     $('#btn-acerca-de').on('click', function(e){
         e.preventDefault();
         $('html, body').animate({
-            scrollTop:  acercaDe
+            scrollTop: acercaDe
         }, 500);
     });
 
