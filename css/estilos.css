@@ -128,8 +128,11 @@ header .contenedor-texto .texto .profesion{
     width: 23%;
     margin-bottom: 40px;
 }
-.main .trabajos .contenedor-trabajos .trabajo a:hover{
+.main .trabajos .contenedor-trabajos .trabajo a{
     text-decoration: none;
+}
+.main .trabajos .contenedor-trabajos .trabajo a:hover{
+    text-decoration: underline;
 }
 .main .trabajos .contenedor-trabajos .trabajo .thumb{
     width: 100%;
@@ -139,6 +142,9 @@ header .contenedor-texto .texto .profesion{
     width: 100%;
     vertical-align: top;
     border-radius: 3px;
+}
+.main .trabajos .contenedor-trabajos .trabajo .thumb img:hover{
+    border: solid 2px #3895ea;
 }
 .main .trabajos .contenedor-trabajos .trabajo .descripcion{
     text-align: center;
