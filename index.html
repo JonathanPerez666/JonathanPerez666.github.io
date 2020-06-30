@@ -8,14 +8,15 @@
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/font-awesome.min.css">
     <link rel="stylesheet" href="css/estilos.css">
+    <script src="js/efectos.js"></script>
 </head>
 <body>
     <header>
         <div class="contenedor">
             <nav class="menu">
-                <a href="#">Acerca de</a>
-                <a href="#">Trabajos</a>
-                <a href="#">Contacto</a>
+                <a href="#" id="acerca-de">Acerca de</a>
+                <a href="#" id="trabajos">Trabajos</a>
+                <a href="#" id="contacto">Contacto</a>
             </nav>
 
             <div class="contenedor-texto">
@@ -27,7 +28,7 @@
         </div>
     </header>
     <section class="main">
-        <section class="acerca-de">
+        <section class="acerca-de" id="acerca-de">
             <div class="contenedor">
                <div class="foto">
                 <img src="img/foto.jpg" width="115px" height="115px" alt="Jonathan Perez">
@@ -40,7 +41,7 @@
                </div>
             </div>
         </section>
-        <section class="trabajos">
+        <section class="trabajos" id="trabajos">
             <div class="contenedor">
                 <h3 class="titulo">Trabajos</h3>
                 <div class="contenedor-trabajos">
@@ -134,14 +135,14 @@
                         </a>
                        </div>
                     </div>
-                    
+
                 </div>         
             </div>
         </section>
     </section>
 
     <footer>
-      <section class="contacto">
+      <section class="contacto" id="contacto">
         <div class="contenedor">
                 <h3 class="titulo">Contacto</h3>
                 <form class="formulario">
