@@ -1,20 +1,20 @@
 $(document).ready (function(){
     
         var acercaDe = $('#acerca-de').offset().top,
-            trabajos = $('#trabajos').offset().top,
+            trabajoss = $('#trabajoss').offset().top,
             contacto = $('#contacto').offset().top;
     
         $('#btn-acerca-de').on('click', function(e){
             e.preventDefault();
             $('html, body').animate({
-                scrollTop:  acercaDe - 100
+                scrollTop: acercaDe
             }, 500);
         });
     
-        $('#btn-trabajos').on('click', function(e){
+        $('#btn-trabajoss').on('click', function(e){
             e.preventDefault();
             $('html, body').animate({
-                scrollTop: trabajos
+                scrollTop: trabajoss
             }, 500);
         });
     
