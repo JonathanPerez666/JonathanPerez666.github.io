@@ -1,13 +1,13 @@
 $(document).ready (function(){
+
+        var acercaDe = $('#acerca--de').offset().top,
+            trabajos = $('#trabajoss').offset().top,
+            contacto = $('#contactos').offset().top;
     
-        var acercaDe = $('#acerca-de').offset().top,
-            trabajoss = $('#trabajoss').offset().top,
-            contacto = $('#contacto').offset().top;
-    
-        $('#btn-acerca-de').on('click', function(e){
+        $('#btn-acerca--de').on('click', function(e){
             e.preventDefault();
             $('html, body').animate({
-                scrollTop: acercaDe
+                scrollTop:  acercaDe - 100
             }, 500);
         });
     
@@ -18,10 +18,10 @@ $(document).ready (function(){
             }, 500);
         });
     
-        $('#btn-contacto').on('click', function(e){
+        $('#btn-contactos').on('click', function(e){
             e.preventDefault();
             $('html, body').animate({
-                scrollTop: contacto
+                scrollTop: contactos
             }, 500);
         });
     });
