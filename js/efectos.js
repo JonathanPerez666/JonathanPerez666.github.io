@@ -7,15 +7,15 @@ $(document).ready (function(){
         $('#btn-acercade').on('click', function(e){
             e.preventDefault();
             $('html, body').animate({
-                scrollTop:  acercaDe - 100
-            }, 500);
+                scrollTop:  acercaDe
+            }, 400);
         });
     
         $('#btn-trabajos').on('click', function(e){
             e.preventDefault();
             $('html, body').animate({
                 scrollTop: trabajos
-            }, 500);
+            }, 400);
         });
     
         $('#btn-contacto').on('click', function(e){
